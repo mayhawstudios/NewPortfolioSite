@@ -9,7 +9,7 @@ import Resume from './resume.js';
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <Header/>
         <SplashPage/>
         <About/>
